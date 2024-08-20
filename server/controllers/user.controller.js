@@ -59,6 +59,7 @@ const list = async (req, res) => {
   }
 };
 
+//update part
 const update = (req, res) => {
   let form = new formidable.IncomingForm();
   form.keepExtensions = true;
